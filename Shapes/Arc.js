@@ -85,6 +85,7 @@ export default class Arc extends Component {
 
     return (
       <Path
+        fill="#00000000"
         d={path}
         strokeLinecap={strokeCap}
         strokeWidth={strokeWidth}
